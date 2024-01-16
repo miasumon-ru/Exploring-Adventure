@@ -8,10 +8,28 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+/* shared styles */
+.mark {
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    max-width: 174px;
+    color: #FFF;
+    font-weight: 800;
+    border: none;
+    padding: 10px 30px;
+}
+
 /* header starts */
-header{
+header {
     display: none;
 }
+
 nav {
     display: flex;
     max-width: 1170px;
@@ -66,26 +84,62 @@ ul li a {
 
     color: #FF5400;
 }
-.visible{
+
+.visible {
     display: ;
 }
-.hidden{
+
+.hidden {
     /* display: none; */
     display: none;
- 
+
 }
 
 /* banner starts */
-.form>div{
-border: 1px solid black;
-padding: 10px;
+.form>div {
+    border: 1px solid black;
+    padding: 10px;
 }
 
+
+/* popular section starts */
+.popular-tour {
+    max-width: 1170px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+
+}
+.popular-tour-content-container{
+    max-width: 540px;
+}
+
+.popular-tour-content-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #131318;
+}
+
+.popular-tour-description {
+    font-size: 1.1rem;
+}
+
+.popular-tour-content-places {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    
+}
+
+.popular-tour-img-container img{
+    width: 100%;
+
+}
 
 
 /* footer starts */
 
-.footer{
+.footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding: 110px 335px;
@@ -99,8 +153,28 @@ padding: 10px;
 
 /* for small devices */
 @media screen and (max-width:600px) {
-    .footer{
-        padding: 50px 15px;
+
+    .popular-tour{
+        flex-direction: column;
+    }
+    .popular-tour-content-title {
+        font-size: 1.4rem;    
+    }
+    .popular-tour-description {
+        font-size: 0.9rem;
+    }
+    .popular-tour-content-places {
+        /* padding: 0; */
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .primary-btn{
+        margin: 20px 0;
+        /* padding-left: 0; */
     }
     
+    .footer {
+        padding: 50px 15px;
+    }
+
 }
