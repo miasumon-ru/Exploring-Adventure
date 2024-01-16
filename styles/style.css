@@ -110,7 +110,8 @@ ul li a {
     gap: 20px;
 
 }
-.popular-tour-content-container{
+
+.popular-tour-content-container {
     max-width: 540px;
 }
 
@@ -128,10 +129,10 @@ ul li a {
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    
+
 }
 
-.popular-tour-img-container img{
+.popular-tour-img-container img {
     width: 100%;
 
 }
@@ -142,39 +143,173 @@ ul li a {
 .footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
-    padding: 110px 335px;
+    padding: 100px 335px;
 }
 
+/* newsletter starts */
 
+.newsletter {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
 
+.newsletter-content-container {
+    max-width: 474px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    margin-bottom: 20px;
+}
 
+.newsletter-content-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #131318;
+    margin: 20px auto;
+}
+
+.newsletter-content-description {
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 1rem;
+   
+}
+
+.form {
+    /* border: none; */
+    margin-bottom: 10px;
+}
+
+.form>div {
+    border: none;
+}
+
+.form input[type="text"] {
+    padding: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.form input[type="email"] {
+    padding: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.form input[type="submit"] {
+    border: none;
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+.newsletter-img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.discount {
+    max-width: 324px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 30px;
+    position: absolute;
+    /* top: 250px; */
+    bottom: 65px;
+    right: 0;
+    transform: rotate(-19.628deg);
+}
+
+.discount p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.discount h4 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 ;
+}
 
 /* media query for responsive */
 
 /* for small devices */
 @media screen and (max-width:600px) {
 
-    .popular-tour{
+    .popular-tour,
+    .newsletter {
         flex-direction: column;
     }
+
     .popular-tour-content-title {
-        font-size: 1.4rem;    
+        font-size: 1.4rem;
     }
+
     .popular-tour-description {
         font-size: 0.9rem;
     }
+
     .popular-tour-content-places {
         /* padding: 0; */
         font-size: 0.9rem;
         font-weight: 400;
     }
-    .primary-btn{
+
+    .primary-btn {
         margin: 20px 0;
         /* padding-left: 0; */
     }
-    
+
+
     .footer {
         padding: 50px 15px;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .popular-tour-content-title {
+        font-size: 2.4rem;
+    }
+
+    .popular-tour-description {
+        font-size: 1.1rem;
+    }
+
+    .popular-tour-content-places {
+        /* padding: 0; */
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .primary-btn {
+        margin: 20px 0;
+        /* padding-left: 0; */
+    }
+
+    .footer {
+        padding: 80px 25px;
     }
 
 }
