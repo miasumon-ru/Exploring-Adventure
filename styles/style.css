@@ -132,7 +132,6 @@ ul li a {
 .title-form {
     justify-content: space-between;
     border-radius: 8px;
- 
     display: flex;
     max-width: 800px;
     margin: 0 auto;
@@ -145,7 +144,7 @@ ul li a {
 
 .title-form input {
 
-    max-width: 174px;
+    max-width: 90px;
 }
 
 .title-form input[type="text"] {
