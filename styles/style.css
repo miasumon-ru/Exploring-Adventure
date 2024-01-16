@@ -136,6 +136,195 @@ ul li a {
     width: 100%;
 
 }
+/* destination starts here */
+.destination{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.destination-content-container{
+    margin: 0 auto;
+    max-width: 643px;
+    text-align: center;
+
+}
+.destination-content-title{
+
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+.destination-content-description{
+
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.destination-img-container1{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    
+}
+.img1{
+    position: relative;
+    max-width: 573px;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.maldiv-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);
+     
+}
+
+.img2{
+    position: relative;
+    max-width: 573px;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.indonesia-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+
+
+.destination-img-container2{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    
+}
+.img3{
+    position: relative;
+    max-width: 374px;
+    border-radius: 16px;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.srilanka-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+.img4{
+    position: relative;
+    max-width: 474px;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.north-america-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+.img5{
+    position: relative;
+    max-width: 274px;
+}
+.img5 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.kashmir-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+
+.destination-img-container3{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    
+}
+.img6{
+    position: relative;
+    max-width: 473px;
+}
+.img6 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.bangladesh-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+.img7{
+    position: relative;
+    max-width: 673px;
+}
+.img7 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.bandarban-center{
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;  
+    font-weight: 800;
+    font-size: 1.4rem;
+    transform: translate(-50%, -50%);  
+}
+
 
 /* choose us section starts here */
 .choose-us {
@@ -326,7 +515,7 @@ ul li a {
 @media screen and (max-width:600px) {
 
     .popular-tour,
-    .newsletter {
+    .newsletter, .destination-img-container1, .destination-img-container2, .destination-img-container3{
         flex-direction: column;
     }
 
@@ -365,6 +554,11 @@ ul li a {
     #card3{
         grid-column: 1/span 13;
         grid-row: 3/span 1;
+    }
+
+    .img1, .img2, .img3,.img4, .img5, .img6, .img7{
+        max-width: 600px;
+        height: 300px;
     }
 
 }
