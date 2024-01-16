@@ -27,13 +27,15 @@ body {
 
 /* header starts */
 header {
-    display: none;
+    /* display: none; */
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 nav {
     display: flex;
-    max-width: 1170px;
-    margin: 0 auto;
+    /* max-width: 1170px; */
+    /* margin: 0 auto; */
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -96,11 +98,77 @@ ul li a {
 }
 
 /* banner starts */
-.form>div {
-    border: 1px solid black;
-    padding: 10px;
+
+.banner {
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    background-position: center center;
+    /* object-fit: cover; */
 }
 
+.banner-content {
+    max-width: 676px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #FFF;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFF;
+
+}
+
+.title-form {
+    justify-content: space-between;
+    border-radius: 8px;
+ 
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 5ps solid #FFF;
+    padding: 50px 0px 106px 0px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-form input {
+
+    max-width: 174px;
+}
+
+.title-form input[type="text"] {
+
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px;
+    color: black;
+    font-weight: 400;
+    border: none;
+}
+
+select {
+    max-width: 174px;
+    padding: 16px 50px 16px 15px;
+    border-radius: 8px;
+}
+
+.title-form button {
+    max-width: 174px;
+    border-radius: 8px;
+    padding: 16px 50px 16px 15px;
+}
 
 /* popular section starts */
 .popular-tour {
@@ -136,193 +204,210 @@ ul li a {
     width: 100%;
 
 }
+
 /* destination starts here */
-.destination{
+.destination {
     max-width: 1170px;
     margin: 0 auto;
 }
-.destination-content-container{
+
+.destination-content-container {
     margin: 0 auto;
     max-width: 643px;
     text-align: center;
 
 }
-.destination-content-title{
+
+.destination-content-title {
 
     font-size: 2.5rem;
     font-weight: 800;
-    
+
 }
-.destination-content-description{
+
+.destination-content-description {
 
     font-weight: 400;
     font-size: 1rem;
 
 }
 
-.destination-img-container1{
+.destination-img-container1 {
     margin-top: 48px;
     display: flex;
     gap: 24px;
-    
+
 }
-.img1{
+
+.img1 {
     position: relative;
     max-width: 573px;
 }
-.img1 img{
+
+.img1 img {
     width: 100%;
     height: 100%;
 
 }
 
-.maldiv-center{
+.maldiv-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
     transform: translate(-50%, -50%);
-     
+
 }
 
-.img2{
+.img2 {
     position: relative;
     max-width: 573px;
 }
-.img2 img{
+
+.img2 img {
     width: 100%;
     height: 100%;
 
 }
 
-.indonesia-center{
+.indonesia-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 
 
-.destination-img-container2{
+.destination-img-container2 {
     margin-top: 20px;
     display: flex;
     gap: 24px;
-    
+
 }
-.img3{
+
+.img3 {
     position: relative;
     max-width: 374px;
     border-radius: 16px;
 }
-.img3 img{
+
+.img3 img {
     width: 100%;
     height: 100%;
 
 }
 
-.srilanka-center{
+.srilanka-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
-.img4{
+
+.img4 {
     position: relative;
     max-width: 474px;
 }
-.img4 img{
+
+.img4 img {
     width: 100%;
     height: 100%;
 
 }
 
-.north-america-center{
+.north-america-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
-.img5{
+
+.img5 {
     position: relative;
     max-width: 274px;
 }
-.img5 img{
+
+.img5 img {
     width: 100%;
     height: 100%;
 
 }
 
-.kashmir-center{
+.kashmir-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 
-.destination-img-container3{
+.destination-img-container3 {
     margin-top: 20px;
     display: flex;
     gap: 24px;
-    
+
 }
-.img6{
+
+.img6 {
     position: relative;
     max-width: 473px;
 }
-.img6 img{
+
+.img6 img {
     width: 100%;
     height: 100%;
 
 }
 
-.bangladesh-center{
+.bangladesh-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
-.img7{
+
+.img7 {
     position: relative;
     max-width: 673px;
 }
-.img7 img{
+
+.img7 img {
     width: 100%;
     height: 100%;
 
 }
 
-.bandarban-center{
+.bandarban-center {
     max-width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #FFF;  
+    color: #FFF;
     font-weight: 800;
     font-size: 1.4rem;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 
 
@@ -357,41 +442,44 @@ ul li a {
     padding: 32px 55px 32px 32px;
 }
 
-.card-icon{
+.card-icon {
     font-size: 4rem;
     margin: 0;
 }
 
-.card-title{
+.card-title {
     font-weight: 800;
     font-size: 1.5rem;
 }
 
-.card-content{
+.card-content {
     font-weight: 400;
     font-size: 1rem;
 }
 
-.choose-us-card-container{
+.choose-us-card-container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 15px;
     margin-bottom: 30px;
 }
-#card1{
+
+#card1 {
 
     grid-column: 1/span 6;
     grid-row: 1/span 2;
 
 }
-#card2{
+
+#card2 {
 
     grid-column: 7/span 12;
     grid-row: 2/span 1;
     background: rgba(41, 206, 246, 0.05);
 
 }
-#card3{
+
+#card3 {
 
     grid-column: 4/span 9;
     grid-row: 3/span 1;
@@ -454,6 +542,7 @@ ul li a {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
 }
 
 .form input[type="email"] {
@@ -462,6 +551,7 @@ ul li a {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
 }
 
 .form input[type="submit"] {
@@ -515,7 +605,10 @@ ul li a {
 @media screen and (max-width:600px) {
 
     .popular-tour,
-    .newsletter, .destination-img-container1, .destination-img-container2, .destination-img-container3{
+    .newsletter,
+    .destination-img-container1,
+    .destination-img-container2,
+    .destination-img-container3,.title-form {
         flex-direction: column;
     }
 
@@ -543,23 +636,40 @@ ul li a {
         padding: 50px 15px;
     }
 
-    #card1{
+    #card1 {
         grid-column: 1/span 12;
         grid-row: 1/span 1;
     }
-    #card2{
+
+    #card2 {
         grid-column: 1/span 13;
         grid-row: 2/span 1;
     }
-    #card3{
+
+    #card3 {
         grid-column: 1/span 13;
         grid-row: 3/span 1;
     }
 
-    .img1, .img2, .img3,.img4, .img5, .img6, .img7{
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7 {
         max-width: 600px;
         height: 300px;
     }
 
-}
+    .visible {
+        display: none;
+    }
+    
+    .hidden {
+        /* display: none; */
+        display:inline;
+    
+    }
 
+}
