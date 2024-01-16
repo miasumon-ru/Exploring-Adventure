@@ -1,0 +1,106 @@
+/* font Mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+/* font awsome cdn link */
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header starts */
+header{
+    display: none;
+}
+nav {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo-title-container img {
+    max-width: 48px;
+    max-height: 56px;
+}
+
+.logo-title {
+    font-weight: 800;
+    font-size: 2.1rem;
+
+}
+
+.adventure {
+    color: #FF5400;
+}
+
+ul {
+    display: flex;
+    /* gap: 30px; */
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: #424247;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 10px 10px;
+}
+
+.home {
+
+    color: #FF5400;
+}
+.visible{
+    display: ;
+}
+.hidden{
+    /* display: none; */
+    display: none;
+ 
+}
+
+/* banner starts */
+.form>div{
+border: 1px solid black;
+padding: 10px;
+}
+
+
+
+/* footer starts */
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 335px;
+}
+
+
+
+
+
+/* media query for responsive */
+
+/* for small devices */
+@media screen and (max-width:600px) {
+    .footer{
+        padding: 50px 15px;
+    }
+    
+}
