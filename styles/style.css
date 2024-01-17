@@ -39,6 +39,7 @@ nav {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .logo-title-container {
@@ -126,6 +127,7 @@ ul li a {
     font-weight: 400;
     font-size: 1rem;
     color: #FFF;
+    
 
 }
 
@@ -136,7 +138,7 @@ ul li a {
     max-width: 800px;
     margin: 0 auto;
     border: 5ps solid #FFF;
-    padding: 50px 0px 106px 0px;
+    padding: 50px 0px 120px 0px;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -151,22 +153,26 @@ ul li a {
 
     border-radius: 8px;
     background: #FFF;
-    padding: 15px;
+    padding: 16px;
     color: black;
     font-weight: 400;
     border: none;
+    outline: 0;
 }
 
 select {
-    max-width: 174px;
+
     padding: 16px 50px 16px 15px;
     border-radius: 8px;
+    outline: 0;
 }
 
 .title-form button {
-    max-width: 174px;
     border-radius: 8px;
     padding: 16px 50px 16px 15px;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
 }
 
 /* popular section starts */
@@ -174,7 +180,7 @@ select {
     max-width: 1170px;
     margin: 20px auto;
     display: flex;
-    gap: 20px;
+    gap: 90px;
 
 }
 
@@ -526,6 +532,11 @@ select {
 
 }
 
+.newsletter hr{
+    opacity: 0.3;
+
+}
+
 .form {
     /* border: none; */
     margin-bottom: 10px;
@@ -536,27 +547,29 @@ select {
 }
 
 .form input[type="text"] {
+ 
     padding: 16px;
-    width: 100%;
+    width: 92%;
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    margin-bottom: 10px;
+    margin: 15px 0px;
 }
 
 .form input[type="email"] {
     padding: 16px;
-    width: 100%;
+    width: 92%;
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .form input[type="submit"] {
+    max-width: 403px;
     border: none;
     width: 100%;
-    padding: 14px;
+    padding: 16px;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -670,5 +683,51 @@ select {
         display:inline;
     
     }
+
+    .title-form input {
+
+        max-width: 350px;
+    }
+    
+    .title-form input[type="text"] {
+
+        padding: 17px 93px 17px 17px;      
+    }
+    
+    select {
+    
+        padding: 17px 200px 17px 17px;
+
+    }
+    
+    .title-form button {   
+        padding: 16px 200px 16px 16px;
+    }
+
+    .title-form{
+        padding: 20px 0px 48px 0px;
+    }
+
+    .banner-title {
+        font-weight: 800;
+        font-size: 1.8rem;
+        color: #FFF;
+    }
+
+    .banner-description {
+        padding: 15px;  
+    }
+
+    .form input[type="text"] {
+
+      width: 88%;
+
+    }
+    
+    .form input[type="email"] {
+        width: 88%;    
+    }
+
+
 
 }
