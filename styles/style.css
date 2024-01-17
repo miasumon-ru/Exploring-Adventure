@@ -610,7 +610,90 @@ select {
     margin: 0;
 }
 
+/* review starts */
 
+.review-section{
+
+    max-width: 1170px;
+    margin: 40px auto;
+
+}
+.review{
+  
+    color: rgb(22, 11, 11);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.review-content{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.review-content h1{
+    font-size: 3rem;
+
+}
+.review-content hr{
+    opacity: 0.4;
+}
+.review-card-container{
+    max-width: 300px;
+    height: 320px;
+    /* box-shadow: 1px 1px 5px; */
+    /* background: rgba(162, 135, 105, 0.05); */
+    background: rgba(6, 234, 78, 0.05);
+    border-radius: 10px;
+    
+}
+.review-card{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+  
+    padding: 20px;
+}
+.review-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.review-info h3{
+
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+.review-info p{
+
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+.review-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.review-rating{
+    font-size: 0.8rem;
+}
+
+.review-content p{
+    font-size: 0.7rem;
+    padding: 20px;
+}
 /* media query for responsive */
 
 /* for small devices */
@@ -620,7 +703,7 @@ select {
     .newsletter,
     .destination-img-container1,
     .destination-img-container2,
-    .destination-img-container3,.title-form {
+    .destination-img-container3,.title-form, .review {
         flex-direction: column;
     }
 
@@ -726,6 +809,17 @@ select {
     
     .form input[type="email"] {
         width: 88%;    
+    }
+
+
+    .review-card-container{
+        max-width: 600px;
+        height: 330px;
+    }
+
+    .review-content h1{
+        font-size: 2rem;
+    
     }
 
 
